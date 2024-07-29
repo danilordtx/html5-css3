@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: black;
+            width: 280px;
+        }
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo:</p>
+    <div>
+        PASSE O MOUSE AQUI
+        <p>Apenas os fortes conseguem ver... <br> UM BRINDE AOS INTELIGENTES! MEU DESPREZO AOS BURROS!</p>
+    </div>
+    <P>Fim do exemplo</P>
+
+    <a href="pseudoclasse.html">
+        <h2>PseudoClasse</h2>
+    </a>
+</body>
+</html>
