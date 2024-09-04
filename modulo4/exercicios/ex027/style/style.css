@@ -1,0 +1,53 @@
+@charset "UFT-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: block;
+    background-image: linear-gradient(to top, rgb(83, 138, 211), rgb(181, 107, 204));
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    display: block;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.452);
+    overflow: hidden;
+    background-color: white;
+    height: 515px;
+    width: 250px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#fundo {
+    display: block;
+    background: black url(../images/winter.jpg) no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    height: 200px;
+}
+
+div#infos {
+    display: block;
+}
+
+div#infos > h1 {
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
+div#infos > p {
+    padding: 10px;
+    margin-bottom: 15px;
+    text-indent: 10px;
+}
